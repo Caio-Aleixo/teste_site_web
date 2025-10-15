@@ -1,5 +1,6 @@
 Cadastro de informações pessoais
 
+
 1. Cenário: Cadastro de nome no formulário  
   Como um usuário  
   Quero preencher meu nome corretamente  
@@ -16,6 +17,7 @@ Exemplos:
   |          | Campo obrigatório não preenchido     |
   | @João123 | Nome inválido                        |
 
+
 2. Cenário: Cadastro de sobrenome no formulário  
   Como um usuário  
   Quero preencher meu sobrenome corretamente  
@@ -31,6 +33,7 @@ Exemplos:
   | Silva     | Sobrenome aceito                    |
   |           | Campo obrigatório não preenchido    |
   | @Silva99  | Sobrenome inválido                  |
+
 
 3. Cenário: Preenchimento do campo E-mail  
   Como um usuário  
@@ -49,6 +52,7 @@ Exemplos:
   |                        | Campo obrigatório não preenchido  |
   | joao@                  | E-mail incompleto                 |
 
+
 4. Cenário: Preenchimento do campo Telefone  
   Como um usuário  
   Quero informar meu número de telefone corretamente  
@@ -65,6 +69,7 @@ Exemplos:
   | 91234-5678       | Formato inválido                  |
   |                  | Campo obrigatório não preenchido  |
   | (99) 99999-999   | Número incompleto                 |
+
 
 5. Cenário: Preenchimento do campo CPF  
   Como um usuário  
@@ -83,6 +88,7 @@ Exemplos:
   |                  | Campo obrigatório não preenchido  |
   | 000.000.000-00   | CPF inválido                      |
 
+
 6. Cenário: Preenchimento do campo Data de Nascimento  
   Como um usuário  
   Quero informar minha data de nascimento corretamente  
@@ -99,6 +105,7 @@ Exemplos:
   | 31/02/2000   | Data inválida                     |
   |              | Campo obrigatório não preenchido  |
   | 1990-01-01   | Formato inválido                  |
+
 
 7. Cenário: Seleção do campo Gênero  
   Como um usuário  
